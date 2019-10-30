@@ -1,4 +1,4 @@
-const VueFilenameInjector = require('./tools/vue-filename-injector')
+const VueFilenameInjector = require('@d2-projects/vue-filename-injector')
 
 // 拼接路径
 const resolve = dir => require('path').join(__dirname, dir)
@@ -26,12 +26,6 @@ module.exports = {
   },
   // 默认设置: https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-service/lib/config/base.js
   chainWebpack: config => {
-    /**
-     * 删除懒加载模块的 prefetch preload，降低带宽压力
-     * https://cli.vuejs.org/zh/guide/html-and-static-assets.html#prefetch
-     * https://cli.vuejs.org/zh/guide/html-and-static-assets.html#preload
-     * 而且预渲染时生成的 prefetch 标签是 modern 版本的，低版本浏览器是不需要的
-     */
     config.plugins
       .delete('prefetch')
       .delete('preload')
