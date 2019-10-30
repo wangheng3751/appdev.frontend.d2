@@ -8,7 +8,7 @@ export default {
      * @param {Object} state state
      */
     versionShow () {
-      util.log.capsule('昆明迪蒙传媒科技有限公司-智慧勤务管理系统', `v${process.env.VUE_APP_VERSION}`)
+      util.log.capsule('XXXXXX有限公司-XXXXX管理系统', `v${process.env.VUE_APP_VERSION}`)
     }
   }
 }

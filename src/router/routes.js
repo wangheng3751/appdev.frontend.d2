@@ -6,60 +6,6 @@ const _import = require('@/libs/util.import.' + process.env.NODE_ENV)
  */
 const frameIn = [
   {
-    path: 'department',
-    name: 'department',
-    meta: {
-      title: '组织机构',
-      auth: true
-    },
-    component: _import('system/department')
-  },
-  {
-    path: 'user',
-    name: 'user',
-    meta: {
-      title: '用户管理',
-      auth: true
-    },
-    component: _import('system/user')
-  },
-  {
-    path: 'role',
-    name: 'role',
-    meta: {
-      title: '角色管理',
-      auth: true
-    },
-    component: _import('system/role')
-  },
-  {
-    path: 'router',
-    name: 'router',
-    meta: {
-      title: '路由管理',
-      auth: true
-    },
-    component: _import('system/router')
-  },
-  {
-    path: 'menu',
-    name: 'menu',
-    meta: {
-      title: '菜单管理',
-      auth: true
-    },
-    component: _import('system/menu')
-  },
-  {
-    path: 'application',
-    name: 'application',
-    meta: {
-      title: '应用管理',
-      auth: true
-    },
-    component: _import('system/application')
-  },
-  {
     path: 'log',
     name: 'log',
     meta: {

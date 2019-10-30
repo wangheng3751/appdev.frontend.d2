@@ -9,8 +9,8 @@ import store from '@/store/index'
 
 // 菜单和路由设置
 import router from './router'
-import menuHeader from '@/menu/header'
-import menuAside from '@/menu/aside'
+//import menuHeader from '@/menu/header'
+//import menuAside from '@/menu/aside'
 //import { frameInRoutes } from '@/router/routes'
 
 // 核心插件
@@ -22,7 +22,7 @@ new Vue({
   i18n,
   render: h => h(App),
   created () {
-    /* 改造-移动到router/index.js
+    /* 改造-移动到store/modules/d2admin/modules/permission.js
     // 处理路由 得到每一级的路由设置
     this.$store.commit('d2admin/page/init', frameInRoutes)
     // 设置顶栏菜单

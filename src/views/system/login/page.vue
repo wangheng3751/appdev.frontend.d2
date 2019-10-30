@@ -76,7 +76,7 @@
           <p class="page-login--content-footer-copyright">
             Copyright
             <d2-icon name="copyright"/>
-            2019 昆明迪蒙传媒科技有限公司
+            2019 XXXXXXXX有限公司
             <a href="#">
               @Kunming Dream
             </a>
